@@ -24,8 +24,8 @@ public class Operations {
     public void creandoExcel() {
         System.out.println("Iniciando...");
 
-        File plantilla = new File("C:\\Users\\humbe\\OneDrive\\Documentos\\NetBeansProjects\\ExcelConPlantilla\\plantilla\\Reporte_Tarjetas_Depuracion.xlsx");
-        File archivoSalida = new File("C:\\Users\\humbe\\OneDrive\\Documentos\\NetBeansProjects\\ExcelConPlantilla\\plantilla\\Salida.xlsx");
+        File plantilla = new File("plantilla\\Reporte_Tarjetas_Depuracion.xlsx");
+        File archivoSalida = new File("plantilla\\Salida.xlsx");
 
         Map datos = new HashMap();
         datos.put("mensaje", fechaActual());
